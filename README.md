@@ -4,7 +4,7 @@ This repo shows an example of how to create a proc macro in rust without any dep
 
 ## Credits
 
-This repo was heavily based off of referencing [nanoserde](https://github.com/not-fl3/nanoserde/blob/ceab998766086a9ce2ae88b66548622c1d726def/derive/src/parse.rs)'s parsing logic and influenced by my [rants](https://internals.rust-lang.org/t/breakage-of-fragile-proc-macros-in-nightly-2020-07-03/12688) on the rust internals forum.
+The logic in this crate was written by referencing [nanoserde](https://github.com/not-fl3/nanoserde/blob/ceab998766086a9ce2ae88b66548622c1d726def/derive/src/parse.rs)'s parsing logic and influenced by my [rants](https://internals.rust-lang.org/t/breakage-of-fragile-proc-macros-in-nightly-2020-07-03/12688) on the rust internals forum.
 
 ## Support
 
