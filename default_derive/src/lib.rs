@@ -213,8 +213,9 @@ pub fn default_derive(input: TokenStream) -> TokenStream {
 
             // Struct has been parsed -- let's emit our impl
             format!(
-                "impl {} {{ \
-                pub fn our_default() -> Self {{ \
+                "#[automatically_derived] \
+                impl crate::OurDefault for {} {{ \
+                    fn our_default() -> Self {{ \
                         {} {{
                             {}
                         }}
